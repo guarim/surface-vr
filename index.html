@@ -18,9 +18,9 @@
         <a-asset-item id="room" src="models/room.glb"></a-asset-item>
         <a-asset-item id="table" src="models/table.glb"></a-asset-item>
         <a-asset-item id="person" src="models/p1.glb"></a-asset-item>
-        <a-asset-item id="vr" src="models/vr.glb"></a-asset-item>
+        <a-asset-item id="vr" src="models/apple-vision-pro.glb"></a-asset-item>
         <a-asset-item id="tv" src="models/tv.glb"></a-asset-item>
-        <a-asset-item id="man" src="models/gman.glb"></a-asset-item>
+        <a-asset-item id="man" src="models/gman.glb"></a-asset-item
         <img id="sky" src="peach-gradient.jpg">
       </a-assets>
 
@@ -34,6 +34,9 @@
        ></a-gltf-model>
       
       <a-gltf-model src="#person" position="0.6 0 0" rotation="0 90 0" scale="1 1 1"
+       animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" ></a-gltf-model>
+
+      <a-gltf-model src="#vr" position="0.6 0 0" rotation="0 90 0" scale="1 1 1"
        animation="property: rotation; to: 0 360 0; loop: true; dur: 10000" ></a-gltf-model>
 
       <a-gltf-model src="#man" position="0.6 0 2" rotation="0 90 0" scale="0.01 0.01 0.01"
