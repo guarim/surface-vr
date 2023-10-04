@@ -10,6 +10,7 @@
     <a-scene renderer="colorManagement: true;">
       <a-assets>
         <a-asset-item id="desk" src="models/desk.glb"></a-asset-item>
+        <a-asset-item id="room" src="models/room.glb"></a-asset-item>
         <a-asset-item id="table" src="models/table.glb"></a-asset-item>
         <a-asset-item id="person" src="models/p1.glb"></a-asset-item>
         <a-asset-item id="vr" src="models/vr.glb"></a-asset-item>
@@ -22,6 +23,8 @@
       </a-entity>
 
       <a-gltf-model src="#desk" position="0 0 2" rotation="0 -90 0" scale="2 2 2"
+       ></a-gltf-model>
+       <a-gltf-model src="#room" position="-3 0 0" rotation="0 -90 0" scale="1 1 1"
        ></a-gltf-model>
       
       <a-gltf-model src="#person" position="2 0 0" rotation="0 90 0" scale="1 1 1"
